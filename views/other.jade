@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  video(controls) Your browser does not support videos.
+    source(src="videos/test.webm", type="video/webm")
+    source(src="videos/test2.mp4", type="video/mp4")
+    source(src="videos/test.3gp", type="video/3gpp")

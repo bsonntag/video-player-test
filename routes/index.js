@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Super Dupper Video Pooper' });
 });
 
+router.get('/other', function(req, res, next) {
+  res.render('other', { title: 'Super Dupper Video Pooper' });
+});
+
 module.exports = router;

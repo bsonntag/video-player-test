@@ -28,3 +28,10 @@ node_modules
 
 # Debug log from npm
 npm-debug.log
+
+# Project's build folders
+public/javascripts
+public/stylesheets
+
+# Project's static videos folder
+public/videos
