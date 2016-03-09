@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "npm run build && npm run serve",
+    "serve": "node ./bin/www",
     "build": "browserify app/scripts/index.js -o public/javascripts/index.js"
   },
   "dependencies": {
