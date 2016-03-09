@@ -6,13 +6,11 @@ var toBlobUrl = require('stream-to-blob-url');
 var host = location.host;
 var video = document.querySelector('video');
 var assets = [
-  { url: 'test.3gp', type: 'video/3gpp' },
-  { url: 'test.3gp', type: 'video/3gpp; codecs="h263, amr_nb"' },
-  { url: 'test.3gp', type: 'video/3gpp; codecs="s263, samr"' },
-  { url: 'test2.mp4', type: 'video/mp4' },
-  { url: 'test2.mp4', type: 'video/mp4; codecs="h264, aac"' },
   { url: 'test.webm', type: 'video/webm' },
   { url: 'test.webm', type: 'video/webm; codecs="vp8, vorbis"' },
+  { url: 'test.mp4', type: 'video/mp4' },
+  { url: 'test.mp4', type: 'video/mp4; codecs="h264, aac"' },
+  { url: 'test.mp4', type: 'video/mp4; codecs="avc1, mp4a"' },
 ];
 
 getVideo();
